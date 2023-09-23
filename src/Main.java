@@ -6,7 +6,7 @@ public class Main
     {
         System.out.println(reverseString("acbcefg"));
     }
-
+    // add the characters in reverse order to char array
     public static String reverseString(String stringIn){
         char[] reverse = new char[stringIn.length()];
 
@@ -14,6 +14,7 @@ public class Main
         {
             reverse[(stringIn.length() -1) - i] = stringIn.charAt(i);
         }
+        // return the char array as a string
         return Arrays.toString(reverse);
     }
 }
