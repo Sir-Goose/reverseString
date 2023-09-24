@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class Main
 {
     public static void main(String[] args)
-    {
+    {   // print out the reversed string to verify
         System.out.println(reverseString("acbcefg"));
     }
     // add the characters in reverse order to char array
